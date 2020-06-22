@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	#heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+}
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+<h2>The target Attribute</h2>
+
+<a href="https://www.w3schools.com/html/" target="_top">Visit our HTML tutorial!</a> 
+
+<p>If you set the target attribute to "_blank", the link will open in a new browser window or tab.</p>
+
+</body>
+</html>

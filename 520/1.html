@@ -1,0 +1,106 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>love_yc</title>
+<link rel = "stylesheet"  href = "./style.css">
+</head>
+<body>
+
+	<div class = "container">
+		<span>c</span>
+		<span>o</span>
+		<span>d</span>
+		<span>e</span>
+		<span>m</span>
+		<span>a</span>
+		<span>g</span>
+		<span>i</span>
+		<span>c</span>
+
+	</div>
+</body>
+
+
+</html> -->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>love_yc</title>
+
+<style>
+	@keyframes FadeIn { 
+  0% {
+    opacity: 0;
+    color: #fff;
+    filter: blur(2px);
+    transform: scale(.1);
+    left:50 px; top: 50px;
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1.05);
+    left: 50px; top: 250px;
+  }
+  100% {
+    transform: scale(1);
+    left: 50px; top: 50px;
+  }
+
+/*  0%, 100% {
+		color: #fff;
+		filter: blur(2px);
+		text-shadow: 
+		0 0 10px #1e90ff,
+		0 0 20px #1e90ff,
+		0 0 30px #1e90ff,
+		0 0 40px #1e90ff,
+		0 0 100px #1e90ff,
+		0 0 200px #1e90ff,
+		0 0 300px #1e90ff,
+		0 0 400px #1e90ff;
+
+	}
+
+	5%, 95% {
+		color: #111;
+		filter: blur(0px);
+		text-shadow: none;
+	}*/
+}
+
+.myClass span {
+  float: left;
+  margin: 100px;
+  animation: FadeIn 4s linear infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+ span:nth-child(1) { animation-delay: .5s }
+span:nth-child(2) { animation-delay: 1.5s }
+span:nth-child(3) { animation-delay: 2.5s }
+span:nth-child(4) { animation-delay: 3.5s }
+
+</style>
+</head>
+<body>
+
+<div class="myClass">
+    <span> 如果不曾遇见你，我本可忍受孤独 </span>
+    <span> 一时间不知道从哪说起,真爱来了，我们要好好把握 </span>
+    <span> 世界这么大还是遇见你</span>
+    <span> 不管面临多大的压力,不管前面的路如何崎岖 </span>
+
+</div>
+</body>
+
+
+</html>
